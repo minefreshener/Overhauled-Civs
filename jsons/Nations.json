@@ -1,38 +1,226 @@
 [
+    {
+		"name": "Makedonia",
+		"leaderName": "Alexandros",
+		"adjective": ["Makedonian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["TBD"]
+    },
+	    {
+		"name": "Epeiros",
+		"leaderName": "Pyrrhos",
+		"adjective": ["Epeirote"],
+		"startBias": ["Coast", "hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am Pyrrhos, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["TBD"]
+    },
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Pontos",
+		"leaderName": "TBD",
+		"adjective": ["Pontic"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["TBD"]
+    },
+	{
+		"name": "Athenai",
+		"leaderName": "TBD",
+		"adjective": ["Athenian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["Athenai"]
+    },
+	{
+		"name": "Sparte",
+		"leaderName": "TBD",
+		"adjective": ["Spartan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["Sparte"]
+    },
+	{
+		"name": "Krete",
+		"leaderName": "TBD",
+		"adjective": ["Kretan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["TBD"]
+    },
+	{
+		"name": "Pergamon",
+		"leaderName": "TBD",
+		"adjective": ["Pergamon"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["TBD"]
+    },
+	{
+		"name": "Bosporos",
+		"leaderName": "Leukon I",
+		"adjective": ["Bosporan"],
+		"startBias": ["Coast", "Wheat"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": [],
+		"cities": ["Pantikapaion"]
+    },
 ]
