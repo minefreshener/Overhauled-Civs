@@ -27,7 +27,7 @@
 		"uniques": [],
 		"cities": ["Pella"]
     },
-	    {
+	{
 		"name": "Epeiros",
 		"leaderName": "Pyrrhos",
 		"adjective": ["Epeirote"],
@@ -140,36 +140,8 @@
 		"cities": ["Sparte"]
     },
 	{
-		"name": "Krete",
-		"leaderName": "TBD",
-		"adjective": ["Kretan"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am TBD, son of kings and grandson of the gods!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
-		"cities": ["TBD"]
-    },
-	{
 		"name": "Pergamon",
-		"leaderName": "TBD",
+		"leaderName": "Philetairos",
 		"adjective": ["Pergamon"],
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
@@ -193,7 +165,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
-		"cities": ["TBD"]
+		"cities": ["Pergamon"]
     },
 	{
 		"name": "Bosporos",
@@ -253,7 +225,7 @@
     },
 	{
 		"name": "Baktria",
-		"leaderName": "TBD",
+		"leaderName": "Eucratides",
 		"adjective": ["Baktrian"],
 		"startBias": ["Plains", "Hill"],
 		"preferredVictoryType":"Domination",
@@ -306,62 +278,6 @@
 		"uniqueName": "TBD",
 		"uniques": [],
 		"cities": ["Antioch"]
-    },
-	{
-		"name": "Getai",
-		"leaderName": "TBD",
-		"adjective": ["Getic"],
-		"startBias": ["Forest"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
-		"cities": ["TBD"]
-    },
-	{
-		"name": "Thraike",
-		"leaderName": "TBD",
-		"adjective": ["Thraikian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
-		"cities": ["TBD"]
     },
 	{
 		"name": "Trebizond",
