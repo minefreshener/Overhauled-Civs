@@ -11,7 +11,8 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Greece] Civilizations>", "Only available <for [Makedonia] Civilizations>",
 			"Only available <for [Bosporos] Civilizations>", "Only available <for [Athenai] Civilizations>", "Only available <for [Sparte] Civilizations>", 
 			"Only available <for [Pontos] Civilizations>", "Only available <for [Krete] Civilizations>", "Only available <for [Pergamon] Civilizations>", 
-			"Only available <for [Epeiros] Civilizations>"],
+			"Only available <for [Epeiros] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>", "Only available <for [Baktria] Civilizations>", 
+			"Only available <for [Arche Seleukeia] Civilizations>", "Only available <for [Thraike] Civilizations>"],
 		"promotions": ["Drill I"],
 		"attackSound": "metalhit"
 	},
@@ -28,7 +29,8 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-15]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Only available <for [India] Civilizations>", "Only available <for [Persia] Civilizations>",
 			 "Only available <for [Carthage] Civilizations>", "Only available <for [Epeiros] Civilizations>", "Only available <for [Pontos] Civilizations>", 
-			"Only available <for [Pergamon] Civilizations>"],
+			"Only available <for [Pergamon] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>", "Only available <for [Baktria] Civilizations>", 
+			"Only available <for [Arche Seleukeia] Civilizations>"],
 		"attackSound": "elephant"
 	},
 	{
@@ -42,7 +44,8 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Iron",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "Only available <for [Byzantium] Civilizations>", 
-			"Only available <for [Pontos] Civilizations>", "Only available <for [Pergamon] Civilizations>", "Only available <for [Persia] Civilizations>"],
+			"Only available <for [Pontos] Civilizations>", "Only available <for [Pergamon] Civilizations>", "Only available <for [Persia] Civilizations>", 
+			"Only available <for [Ptolemaioi] Civilizations>", "Only available <for [Baktria] Civilizations>", "Only available <for [Arche Seleukeia] Civilizations>"],
 		"promotions": ["Armor Plating I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -60,7 +63,8 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Only available <for [Greece] Civilizations>", 
 			"Only available <for [Pergamon] Civilizations>", "Only available <for [Pontos] Civilizations>", "Only available <for [Epeiros] Civilizations>", 
-			"Only available <for [Makedonia] Civilizations>"],
+			"Only available <for [Makedonia] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>", "Only available <for [Baktria] Civilizations>", 
+			"Only available <for [Arche Seleukeia] Civilizations>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
