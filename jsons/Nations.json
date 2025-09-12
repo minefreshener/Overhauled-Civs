@@ -1,7 +1,7 @@
 [
     {
 		"name": "Makedonia",
-		"leaderName": "Alexandros",
+		"leaderName": "Megas Alexandros",
 		"adjective": ["Makedonian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
@@ -23,8 +23,8 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
+		"uniqueName": "Alexander's Dreams",
+		"uniques": ["Great General provides double combat bonus"],
 		"cities": ["Pella"]
     },
 	{
@@ -51,8 +51,8 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
+		"uniqueName": "Oracle of Dodone",
+		"uniques": ["[+20]% Production when constructing [The Oracle] wonders [in all cities]","[+1 Culture] from every [Temple]", "[+1 Faith] from every [Amphitheater]"],
 		"cities": ["Ambrakia"]
     },
 	{
@@ -192,7 +192,7 @@
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Bosporan Grain Trade",
-		"uniques": ["[+1 Food] [in all cities] <after discovering [Optics]>", "[+1 Gold] from every [Wheat]"],
+		"uniques": ["[+1 Food] [in all cities] <after discovering [Optics]>", "[+1 Gold] from every [Wheat]", "Gain a free [Granary] [in all coastal cities]"],
 		"cities": ["Pantikapaion"]
     },
 	{
@@ -219,8 +219,8 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
+		"uniqueName": "Fruit of The Nile",
+		"uniques": ["Gain a free [Lighthouse] [in all coastal cities]", "[+1 Food] from [River] tiles [in all cities]"],
 		"cities": ["Alexandria"]
     },
 	{
@@ -277,34 +277,6 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
-		"cities": ["Antioch"]
-    },
-	{
-		"name": "Trebizond",
-		"leaderName": "TBD",
-		"adjective": ["Traezuntine"],
-		"startBias": ["Coast", "Mountain"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"favoredReligion": "Christianity",
-		"uniqueName": "TBD",
-		"uniques": [],
-		"cities": ["TBD"]
+		"cities": ["Antiocheia"]
     },
 ]
