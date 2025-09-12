@@ -12,11 +12,27 @@
         "movementType": "Land"
     },
     {
+        "name": "Skirmish",
+        "movementType": "Land"
+    },
+    {
+        "name": "Skirmish Cav",
+        "movementType": "Land"
+    },
+    {
         "name": "Gunpowder",
         "movementType": "Land"
     },
     {
+        "name": "Gunpowder Cav",
+        "movementType": "Land"
+    },
+    {
         "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archery Cav",
         "movementType": "Land"
     },
     {
