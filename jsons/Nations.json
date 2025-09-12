@@ -20,8 +20,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [51,25,0],
+		"innerColor": [255,255,102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Alexander's Dreams",
 		"uniques": ["Great General provides double combat bonus"],
@@ -76,8 +76,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [27,53,63],
+		"innerColor": [38,98,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
@@ -104,8 +104,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [61, 0, 109],
+		"innerColor": [134,238,214],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
@@ -132,8 +132,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+        "outerColor": [153,5,3],
+        "innerColor": [244,232,54],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Agoge",
 		"uniques": ["New [Military] units start with [30] XP [in all cities]", "[Great General] is earned [50]% faster"],
@@ -160,8 +160,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+        "outerColor": [180, 178, 164],
+        "innerColor": [8, 8, 166],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
@@ -188,8 +188,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [255,168,168],
+		"innerColor": [90, 0, 10],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Bosporan Grain Trade",
 		"uniques": ["[+1 Food] [in all cities] <after discovering [Optics]>", "[+1 Gold] from every [Wheat]", "Gain a free [Granary] [in all coastal cities]"],
@@ -216,8 +216,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [245, 230, 55],
+		"innerColor": [214, 145, 19],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Fruit of The Nile",
 		"uniques": ["Gain a free [Lighthouse] [in all coastal cities]", "[+1 Food] from [River] tiles [in all cities]"],
@@ -244,8 +244,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [38, 98, 255],
+		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
@@ -272,8 +272,8 @@
 
 		"tradeRequest": "My friend, does this seem reasonable to you?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
+		"outerColor": [37,43,33],
+		"innerColor": [179,178,184],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
 		"uniques": [],
