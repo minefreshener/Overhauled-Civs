@@ -16,6 +16,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Skirmish Eleph",
+        "movementType": "Air"
+    },
+    {
         "name": "Skirmish Cav",
         "movementType": "Land"
     },
@@ -32,12 +36,20 @@
         "movementType": "Land"
     },
     {
+        "name": "Archery Eleph",
+        "movementType": "Air"
+    },
+    {
         "name": "Archery Cav",
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land"
+    },
+    {
+        "name": "Artillery Eleph",
+        "movementType": "Air"
     },
     {
         "name": "Scout",
