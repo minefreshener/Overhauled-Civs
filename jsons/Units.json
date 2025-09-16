@@ -173,13 +173,12 @@
 	{
 		"name": "Galley",
 		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
@@ -224,7 +223,7 @@
 		"range": 1,
 		"rangedStrength": 18,
 		"cost": 100,
-		"requiredTech": "Sailing",
+		"requiredTech": "Compass",
 		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "Frigate",
 		"obsoleteTech": "Navigation",
@@ -308,7 +307,8 @@
 			"Only available <for [Assyria] Civilizations>", "Only available <for [Morocco] Civilizations>", "Only available <for [Poland] Civilizations>", 
 			"Only available <for [Shoshone] Civilizations>", "Only available <for [Zulu] Civilizations>", "Only available <for [Hungary] Civilizations>", 
 			"Only available <for [Lithuania] Civilizations>", "Only available <for [The Khmer] Civilizations>", "Only available <for [Tibet] Civilizations>", 
-			"Only available <for [Viet Nam] Civilizations>"],
+			"Only available <for [Viet Nam] Civilizations>", "Only available <for [Bosporos] Civilizations>", "Only available <for [Arche Seleukeia] Civilizations>", 
+			"Only available <for [Pontos] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>"],
 		"attackSound": "arrow"
 	},
 ]
