@@ -308,7 +308,8 @@
 			"Only available <for [Shoshone] Civilizations>", "Only available <for [Zulu] Civilizations>", "Only available <for [Hungary] Civilizations>", 
 			"Only available <for [Lithuania] Civilizations>", "Only available <for [The Khmer] Civilizations>", "Only available <for [Tibet] Civilizations>", 
 			"Only available <for [Viet Nam] Civilizations>", "Only available <for [Bosporos] Civilizations>", "Only available <for [Arche Seleukeia] Civilizations>", 
-			"Only available <for [Pontos] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>"],
+			"Only available <for [Pontos] Civilizations>", "Only available <for [Ptolemaioi] Civilizations>", "Only available <for [Pergamon] Civilizations>", 
+			"Only available <for [Baktria] Civilizations>"],
 		"attackSound": "arrow"
 	},
 ]
