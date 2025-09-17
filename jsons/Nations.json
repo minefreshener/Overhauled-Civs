@@ -24,7 +24,7 @@
 		"innerColor": [255,255,102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Alexander's Dreams",
-		"uniques": ["Great General provides double combat bonus"],
+		"uniques": ["Great General provides double combat bonus", "Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]"],
 		"cities": ["Pella"]
     },
 	{
@@ -52,7 +52,8 @@
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Oracle of Dodone",
-		"uniques": ["[+20]% Production when constructing [The Oracle] wonders [in all cities]","[+1 Culture] from every [Temple]", "[+1 Faith] from every [Amphitheater]"],
+		"uniques": ["[+20]% Production when constructing [The Oracle] wonders [in all cities]","[+1 Culture] from every [Temple]", "[+1 Faith] from every [Amphitheater]", 
+			"Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]"],
 		"cities": ["Ambrakia"]
     },
 	{
@@ -80,7 +81,7 @@
 		"innerColor": [38,98,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
-		"uniques": [],
+		"uniques": ["Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]", "Gain a free [Iranian Culture] [in all cities]"],
 		"cities": ["Amaseia"]
     },
 	{
@@ -108,7 +109,7 @@
 		"innerColor": [134,238,214],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
-		"uniques": [],
+		"uniques": ["Gain a free [Hellenistic Culture] [in all cities]"],
 		"cities": ["Athenai"]
     },
 	{
@@ -136,7 +137,7 @@
         "innerColor": [244,232,54],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Agoge",
-		"uniques": ["New [Military] units start with [30] XP [in all cities]", "[Great General] is earned [50]% faster"],
+		"uniques": ["New [Military] units start with [30] XP [in all cities]", "[Great General] is earned [50]% faster", "Gain a free [Hellenistic Culture] [in all cities]"],
 		"cities": ["Sparte"]
     },
 	{
@@ -164,7 +165,7 @@
         "innerColor": [8, 8, 166],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
-		"uniques": [],
+		"uniques": ["Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]"],
 		"cities": ["Pergamon"]
     },
 	{
@@ -192,7 +193,8 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Bosporan Grain Trade",
-		"uniques": ["[+1 Food] [in all cities] <after discovering [Optics]>", "[+1 Gold] from every [Wheat]", "Gain a free [Granary] [in all coastal cities]"],
+		"uniques": ["[+1 Food] [in all cities] <after discovering [Optics]>", "[+1 Gold] from every [Wheat]", "Gain a free [Granary] [in all coastal cities]", 
+			"Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Eurasian Steppe Culture] [in all cities]"],
 		"cities": ["Pantikapaion"]
     },
 	{
@@ -220,7 +222,8 @@
 		"innerColor": [214, 145, 19],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Fruit of The Nile",
-		"uniques": ["Gain a free [Lighthouse] [in all coastal cities]", "[+1 Food] from [River] tiles [in all cities]"],
+		"uniques": ["Gain a free [Lighthouse] [in all coastal cities]", "[+1 Food] from [River] tiles [in all cities]", 
+			"Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]"],
 		"cities": ["Alexandria"]
     },
 	{
@@ -248,7 +251,7 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
-		"uniques": [],
+		"uniques": ["Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]", "Gain a free [Iranian Culture] [in all cities]"],
 		"cities": ["TBD"]
     },
 	{
@@ -276,7 +279,7 @@
 		"innerColor": [179,178,184],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TBD",
-		"uniques": [],
+		"uniques": ["Gain a free [Hellenistic Culture] [in all cities]", "Gain a free [Alexandrian Successor] [in all cities]", "Gain a free [Iranian Culture] [in all cities]"],
 		"cities": ["Antiocheia"]
     },
 ]
