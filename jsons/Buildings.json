@@ -1,3 +1,37 @@
 [
-
+	{
+		"name": "Hellenistic Culture",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
+  {
+		"name": "Alexandrian Successor",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
+  {
+		"name": "Roman Culture",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
+  {
+		"name": "Iranian Culture",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
+  {
+		"name": "Eurasian Steppe Culture",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
 ]
