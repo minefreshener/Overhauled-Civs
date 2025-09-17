@@ -141,6 +141,23 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Persian Immortal",
+		"unitType": "Skirmish",
+		"replaces": "Hoplite",
+		"uniqueTo": "Persia",
+		"movement": 2,
+		"strength": 11,
+		"range": 2,
+		"rangedStrength": 8,
+		"cost": 100,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Galley",
 		"unitType": "Melee Water",
 		"movement": 3,
@@ -253,5 +270,31 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
 			"Only available <in cities with a [Horse Archer Capability]>"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Chivalry",
+		"uniques": ["[+70]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Argyraspides",
+		"unitType": "Sword",
+		"uniqueTo": "Makedonia",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 19,
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+60]% Strength <vs [Mounted] units>", "[+40]% Strength <vs [Mounted] units> <when adjacent to a [Argyraspides] unit>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
 	},
 ]
