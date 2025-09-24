@@ -1,0 +1,12 @@
+Tilesets.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Arrows/Generic
+  rotate: false
+  xy: 528, 1984
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
