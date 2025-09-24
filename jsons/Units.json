@@ -141,6 +141,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Archer-Spearman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9,
+		"range": 2,
+		"rangedStrength": 7,
+		"cost": 75,
+		"requiredTech": "Masonry",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Only available <in cities with a [Iranian Culture]>"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Persian Immortal",
 		"unitType": "Skirmish",
 		"replaces": "Hoplite",
