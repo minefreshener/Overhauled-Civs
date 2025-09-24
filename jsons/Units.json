@@ -284,32 +284,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Chivalry",
-		"uniques": ["[+70]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
-	},
-		{
-		"name": "Battering Ram",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 10,
-		"cost": 50,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-		"[-1] Sight", "Can only attack [City] units"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
-	},
-		{
 		"name": "Pictish Warrior",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -339,6 +313,18 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Chivalry",
+		"uniques": ["[+70]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Argyraspides",
 		"unitType": "Sword",
 		"uniqueTo": "Makedonia",
@@ -351,5 +337,19 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
+	},
+		{
+		"name": "Battering Ram",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Masonry",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+		"[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
 	},
 ]
