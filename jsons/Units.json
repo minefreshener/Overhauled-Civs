@@ -142,16 +142,16 @@
 	},
 	{
 		"name": "Archer-Spearman",
-		"unitType": "Archery",
+		"unitType": "Skirmish",
 		"movement": 2,
 		"strength": 9,
 		"range": 2,
 		"rangedStrength": 7,
 		"cost": 75,
-		"requiredTech": "Masonry",
+		"requiredTech": "Trapping",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Only available <in cities with a [Iranian Culture]>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when defending>", "Only available <in cities with a [Iranian Culture]>"],
 		"attackSound": "arrow"
 	},
 	{
