@@ -258,22 +258,23 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Camel Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <with [2] to [3] neighboring [Desert] tiles>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <with [2] to [3] neighboring [Desert] tiles>",
+			"[+50]% Strength <starting from the [Medieval era]>"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Camel Rifleman",
-		"unitType": "Gunpowder Cav",
+		"unitType": "Skirmish Cav",
 		"movement": 3,
-		"strength": 11,
+		"strength": 21,
 		"range": 2,
-		"rangedStrength": 11,
-		"cost": 65,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Camel Rifleman",
-		"obsoleteTech": "Rifling",
+		"rangedStrength": 23,
+		"cost": 155,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Combined Arms",
+		"obsoleteTech": "Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <with [2] to [3] neighboring [Desert] tiles>"],
-		"attackSound": "arrow"
+		"attackSound": "shot"
 	},
 	//////////////////////////////////// ARMOURED CAV ///////////////////////////////
 	{
