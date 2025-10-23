@@ -261,6 +261,20 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <with [2] to [3] neighboring [Desert] tiles>"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Camel Rifleman",
+		"unitType": "Gunpowder Cav",
+		"movement": 3,
+		"strength": 11,
+		"range": 2,
+		"rangedStrength": 11,
+		"cost": 65,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Camel Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <with [2] to [3] neighboring [Desert] tiles>"],
+		"attackSound": "arrow"
+	},
 	//////////////////////////////////// ARMOURED CAV ///////////////////////////////
 	{
 		"name": "Cataphract",
