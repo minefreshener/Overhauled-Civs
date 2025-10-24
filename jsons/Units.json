@@ -127,7 +127,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+15]% Strength <starting from the [Medieval era]>",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+20]% Strength <starting from the [Medieval era]>",
 			"Unavailable <for [Aztecs] Civilizations>","Unavailable <for [The Maya] Civilizations>", "Unavailable <for [Iroquois] Civilizations>", 
 			"Unavailable <for [Polynesia] Civilizations>", "Unavailable <for [Inca] Civilizations>", "Unavailable <for [The Olmec] Civilizations>", 
 			"Unavailable <for [Shoshone] Civilizations>"],
@@ -244,7 +244,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+100]% maintenance costs", 
 			"Only available <in cities with a [Cossack Culture]>","[+33]% Strength <starting from the [Industrial era]>"],
 		"promotions": ["[Cossack] ability"],
-		"attackSound": "horse"
+		"attackSound": "shot"
 	},
 	///////////////////////// CAMELRY ///////////////
 	{
@@ -287,30 +287,11 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>","[+100]% maintenance costs", 
-			"Only available <in cities with a [Cataphract Capability]>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>","[+200]% maintenance costs", 
+			"Only available <in cities with a [Cataphract Capability]>","[+25]% Strength <after discovering [Steel]>","[+25]% Strength <after discovering [Metallurgy]>"],
 		"promotions": ["Armor Plating I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
-	},
-	{
-		"name": "Keshik",
-		"unitType": "Archery",
-		"replaces": "Knight",
-		"uniqueTo": "Mongolia",
-		"range": 2,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Great Generals I", "Quick Study"],
-		"attackSound": "arrow"
-		// Keshik should have no penalty attacking cities
 	},
 	{
 		"name": "Conquistador",
@@ -319,15 +300,13 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 135,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
+		"requiredTech": "Compass",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <on foreign continents>","[+2] Sight","[+200]% maintenance costs"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
-		//Conquistador should have no penalty attacking cities
-		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 	},
 	///////////////////////////////////// FEUDAL CAV /////////
 	{
@@ -336,12 +315,31 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Chivalry",
+		"requiredTech": "Civil Service",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"Only available <in cities with a [Knight Capability]>","[+200]% maintenance costs"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Keshik",
+		"unitType": "Skirmish Cav",
+		"replaces": "Knight",
+		"uniqueTo": "Mongolia",
+		"movement": 5,
+		"strength": 20,
+		"range": 2,
+		"rangedStrength": 15,
+		"cost": 120,
+		"requiredResource": "Horses",
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+200]% maintenance costs"],
+		"promotions": ["Great Generals I", "Quick Study"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Mandekalu Cavalry",
@@ -349,18 +347,17 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 110,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
+		"requiredTech": "Civil Service",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"Only available <in cities with a [Mandinka Culture]>"],
 		"attackSound": "horse"
 	},
 	{
 		"name": "Sipahi",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "The Ottomans",
 		"movement": 5,
 		"strength": 25,
 		"cost": 185,
