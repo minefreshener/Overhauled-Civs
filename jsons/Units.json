@@ -488,6 +488,18 @@
 		"attackSound": "crossbow"
 	},
 	{
+		"name": "Modern Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 30,
+		"range": 3,
+		"rangedStrength": 25,
+		"cost": 300,
+		"requiredTech": "Archery",
+		"uniques": ["Invisible to non-adjacent units","[+2] Sight"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Chu-Ko-Nu",
 		"unitType": "Archery",
 		"movement": 2,
@@ -514,6 +526,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": [],
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
@@ -526,8 +539,9 @@
 		"rangedStrength": 10,
 		"cost": 40,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+75]% Strength <starting from the [Medieval era]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -541,10 +555,12 @@
 		"rangedStrength": 10,
 		"cost": 36,
 		"requiredTech": "Agriculture",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"uniques": ["[+65]% Strength <starting from the [Medieval era]>"],
 		"attackSound": "arrow"
 	},
+	
 	{
 		"name": "Galley",
 		"unitType": "Melee Water",
