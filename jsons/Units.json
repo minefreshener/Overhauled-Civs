@@ -495,7 +495,7 @@
 		"range": 3,
 		"rangedStrength": 25,
 		"cost": 300,
-		"requiredTech": "Archery",
+		"requiredTech": "Lasers",
 		"uniques": ["Invisible to non-adjacent units","[+2] Sight"],
 		"attackSound": "arrow"
 	},
