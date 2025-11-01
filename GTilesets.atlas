@@ -1,4 +1,4 @@
-Tilesets.png
+GTilesets.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -61,7 +61,7 @@ TileSets/HexaRealm/Units/Composite Bowman-Persia
   index: -1
 
 
-Tilesets.png
+GTilesets2.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
