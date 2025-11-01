@@ -4,7 +4,7 @@
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [100] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Elephant","Skirmish",
-			"Skirmish Cav","Gunpowder Cav","Archery Cav","Archery Eleph","Skirmish Eleph","Artillery Eleph"],
+			"Skirmish Cav","Gunpowder Cav","Archery Cav","Archery Eleph","Skirmish Eleph","Artillery Eleph","Mech"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -14,7 +14,7 @@
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Skirmish","Gunpowder Cav","Archery Cav","Archery Eleph","Skirmish Eleph","Artillery Eleph"],
         "column": 1,
         "row": 1
@@ -73,7 +73,7 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav",
-			"Archery Eleph","Skirmish Eleph","Artillery Eleph"],
+			"Archery Eleph","Skirmish Eleph","Artillery Eleph","Mech"],
         "column": 3,
         "row": 3
 	},
@@ -90,8 +90,8 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav","Mech"],
         "column": 4,
         "row": 1
 	},
@@ -99,7 +99,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav","Mech"],
         "column": 4,
         "row": 2
 	},
@@ -107,7 +107,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish Cav","Mech"],
         "column": 4,
         "row": 3
 	},
@@ -115,7 +115,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav","Mech"],
         "column": 5,
         "row": 1
 	},
@@ -123,7 +123,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav","Mech"],
         "column": 5,
         "row": 2
 	},
@@ -131,7 +131,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Skirmish","Gunpowder Cav","Mech"],
         "column": 5,
         "row": 3
 	},
@@ -139,7 +139,7 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II","Accuracy II","Barrage II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored","Elephant","Skirmish Cav","Gunpowder Cav","Archery Cav"],
+		"unitTypes": ["Mounted","Armored","Elephant","Skirmish Cav","Gunpowder Cav","Archery Cav","Mech"],
         "column": 6,
         "row": 2
 	},
@@ -147,14 +147,14 @@
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Sword","Gunpowder","Mech"],
         "column": 6,
         "row": 3
 	},
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II","Accuracy II","Barrage II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[-50]% weight to this choice for AI decisions"],
+		"uniques": ["[+33]% Strength <vs [Horse] units>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Skirmish","Gunpowder Cav","Archery Cav"],
         "column": 7,
         "row": 2
@@ -162,7 +162,7 @@
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+33]% Strength <vs [Horse] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Skirmish","Gunpowder Cav"],
         "column": 7,
         "row": 3
@@ -173,15 +173,15 @@
 		"prerequisites": ["Shock III","Drill III","Accuracy III","Barrage III"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Elephant","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav","Archery Eleph","Skirmish Eleph",
-			"Artillery Eleph"],
+			"Artillery Eleph","Mech"],
         "column": 6,
         "row": 4
 	},
 	{
 		"name": "Woodsman",
-		"prerequisites": ["Shock III","Drill III","Accuracy III","Barrage III"],
+		"prerequisites": ["Drill III","Barrage III", "Ambush II"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder","Skirmish","Skirmish Cav","Archery Cav"],
+		"unitTypes": ["Sword","Gunpowder","Skirmish","Skirmish Cav","Archery Cav","Mech"],
         "column": 6,
         "row": 5
 	},
@@ -189,7 +189,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I","Accuracy I","Barrage I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder","Skirmish"],
+		"unitTypes": ["Sword","Gunpowder","Skirmish","Mech"],
         "column": 6,
         "row": 1
 	},
@@ -197,7 +197,7 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I","Accuracy I","Barrage I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav","Mech"],
         "column": 10, // after scout base
         "row": 1
 	},
@@ -205,7 +205,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Skirmish","Skirmish Cav","Gunpowder Cav","Archery Cav","Mech"],
         "column": 10,
         "row": 2
 	},
@@ -214,7 +214,7 @@
 	{
 		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout","Skirmish","Skirmish Cav"],
+		"unitTypes": ["Scout","Skirmish","Skirmish Cav","Mech"],
         "column": 8,
         "row": 1
 	},
@@ -236,16 +236,16 @@
 	},
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout","Skirmish","Skirmish Cav","Archery Cav"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+25]% Strength <when defending>"],
+		"unitTypes": ["Scout","Skirmish","Skirmish Cav","Archery Cav","Mech"],
         "column": 9,
         "row": 1
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout","Skirmish"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+25]% Strength <when defending>"],
+		"unitTypes": ["Scout","Skirmish","Mech"],
         "column": 9,
         "row": 2
 	},
@@ -319,7 +319,7 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","Mech","Submarine"],
         "column": 13,
         "row": 1
 	},
@@ -327,7 +327,7 @@
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","Mech","Submarine"],
         "column": 13,
         "row": 2
 	},
@@ -335,7 +335,7 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","Mech","Submarine"],
         "column": 13,
         "row": 3
 	},
@@ -369,7 +369,7 @@
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier","Elephant","Armored"],
+		"unitTypes": ["Aircraft Carrier","Elephant","Armored","Mech"],
         "column": 15,
         "row": 1
 	},
@@ -377,7 +377,7 @@
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier","Elephant","Armored"],
+		"unitTypes": ["Aircraft Carrier","Elephant","Armored","Mech"],
         "column": 15,
         "row": 2
 	},
@@ -385,14 +385,14 @@
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier", "Armored"],
+		"unitTypes": ["Aircraft Carrier","Armored","Mech"],
         "column": 15,
         "row": 3
 	},
 	{
 		"name": "Flight Deck I",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Aircraft Carrier","Mech"],
         "column": 16,
         "row": 1
 	},
@@ -418,7 +418,7 @@
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Melee Water", "Ranged Water"],
+		"unitTypes": ["Melee Water","Ranged Water","Submarine"],
         "column": 16,
         "row": 4
 	},
@@ -475,7 +475,7 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+34]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
@@ -550,7 +550,7 @@
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Mech"],
         "column": 22,
         "row": 1
 	},
@@ -558,14 +558,14 @@
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Mech"],
         "column": 22,
         "row": 2
 	},
 	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Mech","Submarine","Fighter","Bomber"],
         "column": 23,
         "row": 1
 	},
@@ -573,7 +573,7 @@
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Mech","Submarine","Fighter","Bomber"],
         "column": 23,
         "row": 2
 	},
@@ -600,7 +600,7 @@
 		"prerequisites": ["Accuracy III","Barrage III","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Elephant","Armored","Skirmish","Skirmish Cav","Gunpowder Cav",
-			"Archery Eleph","Skirmish Eleph","Artillery Eleph"],
+			"Archery Eleph","Skirmish Eleph","Artillery Eleph","Mech"],
         "column": 10,
         "row": 3
 	},
