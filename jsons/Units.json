@@ -212,7 +212,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Horse","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
-			"Only available <in cities with a [Horse Archer Capability]>"],
+			"Only available <in cities with a [Horse Archer Capability]>","[+50]% Strength <starting from the [Medieval era]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -562,6 +562,76 @@
 		"uniques": ["[+75]% Strength <starting from the [Medieval era]>"],
 		"attackSound": "arrow"
 	},
+	//////////////////// GUNMEN ////////////////
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 16,
+		"range": 1,
+		"rangedStrength": 21,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Musketeer",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Janissary",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["[Janissary] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Drill I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tercio",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Spain",
+		"movement": 2,
+		"strength": 26,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
 	////////////////// SHIPS ///////////////////
 	{
 		"name": "Galley",
@@ -808,7 +878,7 @@
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","[+300]% maintenance costs","Withdraws before melee combat <with [50]% chance>"]
+		"uniques": ["Cannot attack","Can carry [2] [Aircraft] units","[+300]% maintenance costs","Withdraws before melee combat <with [50]% chance>"]
 	},
 	//////////////// LEVYMEN ///////////////////
 	{
@@ -922,7 +992,8 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability","[+100]% maintenance costs"],
+		"uniques" : ["[+100]% maintenance costs"],
+		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -936,7 +1007,8 @@
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["[Jaguar] ability","Woodsman","[+200]% maintenance costs"],
+		"uniques" : ["[+200]% maintenance costs"],
+		"promotions": ["[Jaguar] ability","Woodsman"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -951,7 +1023,8 @@
 		"upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Iron",
-		"promotions": ["Shock I", "Great Generals I","[+200]% maintenance costs","[+40]% Strength <starting from the [Industrial era]>"],
+		"uniques" : ["[+200]% maintenance costs","[+40]% Strength <starting from the [Industrial era]>"],
+		"promotions": ["Shock I", "Great Generals I"],
 		"attackSound": "metalhit"
 	},
 	///////////////////////////// SPEARMEN //////////////////////
