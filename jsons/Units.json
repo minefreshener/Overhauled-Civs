@@ -1546,6 +1546,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Thorakites",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Pikeman",
+		"requiredResource": "Iron",
+		"uniques": ["[+50]% Strength <vs [Horse] units>","[+100]% maintenance costs","[+33]% Strength <starting from the [Medieval era]>",
+			"Only available <in cities with a [Hellenistic Culture]>"],
+		"promotions": ["Cover I","Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pictish Warrior",
 		"unitType": "Sword",
 		"replaces": "Spearman",
