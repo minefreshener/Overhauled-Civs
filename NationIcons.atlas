@@ -1,11 +1,11 @@
-NationIcons.png
+NationIcons2.png
 size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-NationIcons/America
+NationIcons/Makedonia
   rotate: false
-  xy: 4, 278
+  xy: 4, 62
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
