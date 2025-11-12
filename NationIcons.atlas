@@ -1,0 +1,12 @@
+NationIcons.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+NationIcons/America
+  rotate: false
+  xy: 4, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
