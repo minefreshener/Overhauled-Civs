@@ -57,8 +57,10 @@
 		"innerColor": [255,255,102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Alexander's Dreams",
-		"uniques": ["Great General provides double combat bonus", "Gain a free [Hellenistic Culture] [in all non-occupied cities]", 
-			"Gain a free [Alexandrian Successor] [in all non-occupied cities]", "Gain a free [Cataphract Capability] [in all non-occupied cities]"],
+		"uniques": ["Great General provides double combat bonus","Starts with [Tradition] adopted","Starts with [Honor] adopted",
+			"Gain a free [Hellenistic Culture] [in all non-occupied cities]", 
+			"Gain a free [Alexandrian Successor] [in all non-occupied cities]", 
+			"Gain a free [Cataphract Capability] [in all non-occupied cities]"],
 		"cities": ["Pella","Vergina"]
     },
 	{
