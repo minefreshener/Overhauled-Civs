@@ -61,7 +61,7 @@
 			"Gain a free [Hellenistic Culture] [in all non-occupied cities]", 
 			"Gain a free [Alexandrian Successor] [in all non-occupied cities]", 
 			"Gain a free [Cataphract Capability] [in all non-occupied cities]"],
-		"cities": ["Pella","Vergina"]
+		"cities": ["Aigai","Pella","Vergina","Dion","Thessalonica","Amphipolis","Larissa"]
     },
 	{
 		"name": "Epeiros",
@@ -91,7 +91,7 @@
 		"uniques": ["[+20]% Production when constructing [The Oracle] wonders [in all cities]","[+1 Culture] from every [Temple]", "[+1 Faith] from every [Amphitheater]", 
 			"Gain a free [Hellenistic Culture] [in all non-occupied cities]", "Gain a free [Alexandrian Successor] [in all non-occupied cities]", 
 			"Gain a free [Elephant Capability] [in all non-occupied cities]", "Gain a free [Cataphract Capability] [in all non-occupied cities]"],
-		"cities": ["Ambrakia"]
+		"cities": ["Ambrakia","Dodone"]
     },
 	{
 		"name": "Pontos",
