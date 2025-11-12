@@ -64,6 +64,34 @@
 		"cities": ["Aigai","Pella","Vergina","Dion","Thessalonica","Amphipolis","Larissa"]
     },
 	{
+		"name": "Thraike",
+		"leaderName": "Sitalkes",
+		"adjective": ["Thraikian"],
+		"startBias": ["Coast","Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [51,25,0],
+		"innerColor": [255,255,102],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TBD",
+		"uniques": ["Gain a free [Hellenistic Culture] [in all non-occupied cities]"],
+		"cities": ["Odryssa","Seuthopolis","Serdike","Odessos","Appollonia Pontike","Anchialos","Messembria","Byzantion"]
+    },
+	{
 		"name": "Epeiros",
 		"leaderName": "Pyrrhos",
 		"adjective": ["Epeirote"],
