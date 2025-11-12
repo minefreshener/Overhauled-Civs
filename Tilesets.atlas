@@ -1,78 +1,8 @@
-GTilesets.png
+Tilesets.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Greece
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Athenai
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Classical era-Greece
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Classical era-Athenai
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Medieval era-Greece
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Arche Seleukeia
-  rotate: false
-  xy: 1390, 1924
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Baktria
-  rotate: false
-  xy: 1390, 1924
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Persia
-  rotate: false
-  xy: 1390, 1924
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-
-
-GTilesets2.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/HexaRealm/Units/Hoplite
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Hoplite-Ancient era
   rotate: false
   xy: 292, 908
@@ -80,93 +10,30 @@ TileSets/HexaRealm/Units/Hoplite-Ancient era
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hoplite-Classical era
+
+
+Tilesets2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Persian Immortal
   rotate: false
-  xy: 220, 828
+  xy: 1945, 847
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Sparte
+TileSets/HexaRealm/Units/Hoplite
   rotate: false
-  xy: 292, 908
+  xy: 292, 780
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Pergamon
+TileSets/HexaRealm/Units/Composite Bowman-Greece
   rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Makedonia
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Epeiros
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Pontos
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Bosporos
-  rotate: false
-  xy: 220, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Baktria
-  rotate: false
-  xy: 220, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Arche Seleukeia
-  rotate: false
-  xy: 220, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Ancient era-Ptolemaioi
-  rotate: false
-  xy: 220, 828
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Classical era-Sparte
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Hoplite-Classical era-Epeiros
-  rotate: false
-  xy: 292, 908
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Archer Spearman
-  rotate: false
-  xy: 1390, 1924
+  xy: 1894, 1710
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -178,52 +45,80 @@ TileSets/HexaRealm/Units/Companion Cavalry
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Greece
+TileSets/HexaRealm/Units/Camel Rifleman
   rotate: false
-  xy: 1894, 1710
+  xy: 1534, 1910
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Archer-Spearman
+  rotate: false
+  xy: 1390, 1924
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Bosporos
+TileSets/HexaRealm/Units/Spearman-Greece
   rotate: false
-  xy: 1894, 1710
+  xy: 220, 828
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Makedonia
+TileSets/HexaRealm/Units/Archer-Greece
   rotate: false
-  xy: 1894, 1710
+  xy: 220, 1020
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Epeiros
+TileSets/HexaRealm/Units/Skirmisher-Greece
   rotate: false
-  xy: 1894, 1710
+  xy: 292, 243
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Pergamon
+TileSets/HexaRealm/Units/Slinger-Greece
   rotate: false
-  xy: 1894, 1710
+  xy: 292, 179
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Ptolemaioi
+TileSets/HexaRealm/Units/Argyraspides
   rotate: false
-  xy: 1894, 1710
+  xy: 292, 307
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Swordsman-Greece
+  rotate: false
+  xy: 436, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Composite Bowman-Pontos
+TileSets/HexaRealm/Units/Thorakites
   rotate: false
-  xy: 1894, 1710
+  xy: 436, 68
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior
+  rotate: false
+  xy: 364, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Phalangites
+  rotate: false
+  xy: 508, 138
+  size: 64, 68
+  orig: 64, 68
   offset: 0, 0
   index: -1
