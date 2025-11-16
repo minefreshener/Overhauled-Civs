@@ -59,6 +59,13 @@ TileSets/HexaRealm/Units/Hoplite
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Hoplite-Classical era
+  rotate: false
+  xy: 292, 780
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Horseman-Pontos
   rotate: false
   xy: 4, 43
