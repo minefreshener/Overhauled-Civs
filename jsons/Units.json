@@ -691,7 +691,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Only available <in cities with a [Chu-Ko-Nu Capability]>","[+100]% maintenance costs"],
+		"uniques": ["Only available <in cities with a [Chinese Culture]>","[+100]% maintenance costs"],
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow"
 	},
