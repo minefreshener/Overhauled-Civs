@@ -17,6 +17,20 @@ TileSets/HexaRealm/Units/Archer-Pontos
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Archer-Baktria
+  rotate: false
+  xy: 1390, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Archer-Arche Seleukeia
+  rotate: false
+  xy: 1390, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 
 Tilesets2.png
@@ -101,6 +115,20 @@ TileSets/HexaRealm/Units/Composite Bowman-Ptolemaioi
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Composite Bowman-Baktria
+  rotate: false
+  xy: 1081, 1392
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Composite Bowman-Arche Seleukeia
+  rotate: false
+  xy: 1081, 1392
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Companion Cavalry
   rotate: false
   xy: 1822, 1703
@@ -179,6 +207,20 @@ TileSets/HexaRealm/Units/Spearman-bosporos
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Spearman-Ptolemaioi
+  rotate: false
+  xy: 220, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Spearman-Baktria
+  rotate: false
+  xy: 645, 1408
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Spearman-Arche Seleukeia
   rotate: false
   xy: 220, 828
   size: 64, 56
@@ -304,6 +346,20 @@ TileSets/HexaRealm/Units/Skirmisher-Ptolemaioi
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Skirmisher-Baktria
+  rotate: false
+  xy: 717, 1344
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Skirmisher-Arche Seleukeia
+  rotate: false
+  xy: 717, 1344
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Slinger-Greece
   rotate: false
   xy: 292, 179
@@ -363,6 +419,20 @@ TileSets/HexaRealm/Units/Slinger-Bosporos
 TileSets/HexaRealm/Units/Slinger-Ptolemaioi
   rotate: false
   xy: 292, 179
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Slinger-Baktria
+  rotate: false
+  xy: 296, 1772
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Slinger-Arche Seleukeia
+  rotate: false
+  xy: 296, 1772
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -437,6 +507,20 @@ TileSets/HexaRealm/Units/Swordsman-Ptolemaioi
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Swordsman-Baktria
+  rotate: false
+  xy: 436, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Swordsman-Arche Seleukeia
+  rotate: false
+  xy: 436, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Thorakites
   rotate: false
   xy: 436, 68
@@ -452,6 +536,20 @@ TileSets/HexaRealm/Units/Warrior
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Warrior-Pontos
+  rotate: false
+  xy: 220, 700
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior-Baktria
+  rotate: false
+  xy: 220, 700
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior-Arche Seleukeia
   rotate: false
   xy: 220, 700
   size: 64, 56
