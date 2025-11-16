@@ -63,6 +63,13 @@
 		"uniques": ["Cannot be purchased","Unbuildable"]
 	},
 	{
+		"name": "Chinese Culture",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": ["Cannot be purchased","Unbuildable"]
+	},
+	{
 		"name": "Horse Archer Capability",
 		"cost": 0,
 		"hurryCostModifier": 0,
@@ -106,13 +113,6 @@
 	},
 	{
 		"name": "Crossbow Capability",
-		"cost": 0,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": ["Cannot be purchased","Unbuildable"]
-	},
-	{
-		"name": "Chu-Ko-Nu Capability",
 		"cost": 0,
 		"hurryCostModifier": 0,
 		"maintenance": 0,
