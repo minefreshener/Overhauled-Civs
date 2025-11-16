@@ -87,6 +87,13 @@ TileSets/HexaRealm/Units/Composite Bowman-Pergamon
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Composite Bowman-Ptolemaioi
+  rotate: false
+  xy: 1894, 1710
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Companion Cavalry
   rotate: false
   xy: 1822, 1703
@@ -157,6 +164,20 @@ TileSets/HexaRealm/Units/Spearman-Pergamon
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Spearman-bosporos
+  rotate: false
+  xy: 220, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Spearman-Ptolemaioi
+  rotate: false
+  xy: 220, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Archer-Greece
   rotate: false
   xy: 220, 1020
@@ -193,6 +214,20 @@ TileSets/HexaRealm/Units/Archer-Sparta
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Archer-Pergamon
+  rotate: false
+  xy: 220, 1020
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Archer-Bosporos
+  rotate: false
+  xy: 220, 1020
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Archer-Ptolemaioi
   rotate: false
   xy: 220, 1020
   size: 64, 56
@@ -248,6 +283,20 @@ TileSets/HexaRealm/Units/Skirmisher-Pergamon
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Skirmisher-Bosporos
+  rotate: false
+  xy: 292, 243
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Skirmisher-Ptolemaioi
+  rotate: false
+  xy: 292, 243
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Slinger-Greece
   rotate: false
   xy: 292, 179
@@ -291,6 +340,20 @@ TileSets/HexaRealm/Units/Slinger-Sparta
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Slinger-Pergamon
+  rotate: false
+  xy: 292, 179
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Slinger-Bosporos
+  rotate: false
+  xy: 292, 179
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Slinger-Ptolemaioi
   rotate: false
   xy: 292, 179
   size: 64, 56
@@ -347,6 +410,20 @@ TileSets/HexaRealm/Units/Swordsman-Sparta
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Swordsman-Pergamon
+  rotate: false
+  xy: 436, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Swordsman-Bosporos
+  rotate: false
+  xy: 436, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Swordsman-Ptolemaioi
   rotate: false
   xy: 436, 196
   size: 64, 56
