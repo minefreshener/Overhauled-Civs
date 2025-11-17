@@ -577,7 +577,7 @@
 		"rangedStrength": 5,
 		"cost": 40,
 		"requiredTech": "Masonry",
-		"uniques": ["[+100]% Strength <after discovering [Civil Service]>"],
+		"uniques": ["[+100]% Strength <after discovering [Civil Service]>","[100] HP when healing"],
 		"attackSound": "arrow"
 	},
 	{
